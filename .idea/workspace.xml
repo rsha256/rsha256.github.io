@@ -2,161 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40dd8c3f-f810-4f44-8c5d-9b2d7c6c840f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/rahul.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/particles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/animate.css/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-material-design-font/material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bulma-0.7.1/bulma.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bulma-0.7.1/bulma.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bulma-0.7.1/bulma.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize/materialize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/materialize/materialize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mobirise/mbr-additional.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tether/tether.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jumbotron.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/coder3462.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rahul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/rahul.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jarallax/jarallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/anime.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/cards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/cash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/characterCounter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/chips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/collapsible.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/forms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/materialbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/materialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/materialize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/parallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/pushpin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/sidenav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/tapTarget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/toasts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/materialize/js/waves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/smooth-scroll/smooth-scroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tether/tether.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/theme/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/typer/typer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/uikit/uikit-icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/uikit/uikit-icons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/uikit/uikit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/uikit/uikit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/viewport-checker/jquery.viewportchecker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/.ruby-version" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/Rakefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/assets/config/manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/assets/images/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/assets/javascripts/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/assets/javascripts/cable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/assets/javascripts/channels/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/assets/stylesheets/application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/channels/application_cable/channel.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/channels/application_cable/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/controllers/application_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/controllers/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/helpers/application_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/jobs/application_job.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/mailers/application_mailer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/models/application_record.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/models/concerns/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/views/layouts/application.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/views/layouts/mailer.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/app/views/layouts/mailer.text.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/bin/bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/bin/rails" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/bin/rake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/bin/setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/bin/update" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/bin/yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config.ru" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/application.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/boot.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/cable.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/credentials.yml.enc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/database.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/environment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/environments/development.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/environments/production.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/environments/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/application_controller_renderer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/assets.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/backtrace_silencers.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/content_security_policy.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/cookies_serializer.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/inflections.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/mime_types.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/initializers/wrap_parameters.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/locales/en.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/puma.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/routes.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/config/storage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/db/seeds.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/lib/assets/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/lib/tasks/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/log/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/422.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/application_system_test_case.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/controllers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/fixtures/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/fixtures/files/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/helpers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/integration/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/mailers/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/models/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/system/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/test/test_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/tmp/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-site/vendor/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -170,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+            <state relative-caret-position="168">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -201,9 +63,10 @@
         <option value="$PROJECT_DIR$/assets/particles.json" />
         <option value="$PROJECT_DIR$/js/particles.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/main.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/main.html" />
       </list>
     </option>
   </component>
@@ -237,26 +100,6 @@
             <path>
               <item name="rshah2020.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="rshah2020.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rshah2020.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rshah2020.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rshah2020.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rshah2020.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rshah2020.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rshah2020.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rshah2020.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rshah2020.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,12 +147,12 @@
       <updated>1530391352669</updated>
       <workItem from="1530391354102" duration="4643000" />
       <workItem from="1530570887752" duration="170000" />
-      <workItem from="1533427459129" duration="13051000" />
+      <workItem from="1533427459129" duration="14493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17864000" />
+    <option name="totallyTimeSpent" value="19306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1292" height="732" extended-state="6" />
@@ -348,7 +191,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
           <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
@@ -362,7 +205,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
           <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
@@ -385,13 +228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/me.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -405,13 +241,6 @@
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -419,10 +248,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+        <state relative-caret-position="168">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
