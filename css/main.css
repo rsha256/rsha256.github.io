@@ -1,5 +1,55 @@
+a:hover {
+    text-decoration: underline;
+}
+body {
+    text-transform: none;
+}
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
 
+.c-container {
+    text-align:center;
+    padding: 40px;
+}
+.c-container a {
+    position:relative;
+    z-index:9999;
+}
+.circle {
+    height: 25vh;
+    width: inherit;
 
+    margin-top: -10vh;
+    margin-bottom: 15vh;
+}
+.down {
+    margin-top: -1vh;
+}
+.fancy-text {
+    font-family: tabitha, cursive;
+}
+.gradient {
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.icons {
+    margin-top: 0.25vh;
+}
+.linked-in {
+    margin-top: 0.5vh;
+}
+.out {
+    position:relative;
+    z-index:9999;
+}
+.valign {
+    margin-top: 35vh;
+}
 
-
-
+@font-face {
+    font-family: tabitha;
+    src: url("../fonts/tabitha.ttf") format("truetype");
+}
