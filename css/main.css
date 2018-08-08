@@ -38,6 +38,10 @@ canvas {
 .icons {
     margin-top: 0.25vh;
 }
+.inverted:hover {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
 .linked-in {
     margin-top: 0.5vh;
 }
@@ -46,7 +50,7 @@ canvas {
     z-index:9999;
 }
 .valign {
-    margin-top: 35vh;
+    margin-top: 25vh;
 }
 
 @font-face {
