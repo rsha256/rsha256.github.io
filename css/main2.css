@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300";
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.small {
+  width: 10vw;
+}
+
+/* Hide on Mobile*/
+.mobile-hide {
+  display: inline;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+/* Hide on Desktop */
+.mobile-show {
+  display: none;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  .mobile-show {
+    display: inline;
+  }
+}
+
+.spacer {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.valign-w {
+  vertical-align:baseline;
+}
+
+.icons {
+  vertical-align: middle;
+}
+
+.inverted:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}

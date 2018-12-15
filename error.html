@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="css/error.css" rel="stylesheet">
+</head>
+<body>
+<main class="center container">
+  <div class="moving-zone">
+    <div class="popup">
+      <div class="popup-content">
+        <div class="popup-text">
+          <div id="venn"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/venn.js"></script>
+<script>
+  // define sets and set set intersections
+  let sets = [
+    {sets: ["Something be Broke"], size: 12},
+    {sets: ["You can't type"], size: 12},
+    {sets: ["Something be Broke", "You can't type"], size: 4, label: "404 page"},
+  ];
+
+  let chart = venn.VennDiagram();
+  d3.select("#venn").datum(sets).call(chart);
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/error.js"></script>
+</html>
