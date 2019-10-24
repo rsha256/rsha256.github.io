@@ -18,14 +18,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="244" column="150" lean-forward="true" selection-start-line="244" selection-start-column="150" selection-end-line="244" selection-end-column="150" />
+            <state relative-caret-position="369">
+              <caret line="142" column="49" lean-forward="true" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
               <folding>
                 <element signature="e#2936#2942#0" expanded="true" />
-                <element signature="e#3941#3947#0" expanded="true" />
-                <element signature="e#8343#8349#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8863#8869#0" expanded="true" />
                 <element signature="e#9413#9419#0" expanded="true" />
                 <element signature="e#12601#12607#0" expanded="true" />
+                <element signature="e#16205#16211#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -221,7 +222,7 @@
       <workItem from="1570723633970" duration="246000" />
       <workItem from="1571402374670" duration="1856000" />
       <workItem from="1571694561310" duration="33000" />
-      <workItem from="1571694623140" duration="3839000" />
+      <workItem from="1571694623140" duration="4617000" />
     </task>
     <task id="LOCAL-00001" summary="init m-l site">
       <created>1544899222581</created>
@@ -234,7 +235,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63438000" />
+    <option name="totallyTimeSpent" value="64216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -256,7 +257,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32379714" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32899868" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -446,14 +447,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="244" column="150" lean-forward="true" selection-start-line="244" selection-start-column="150" selection-end-line="244" selection-end-column="150" />
+        <state relative-caret-position="369">
+          <caret line="142" column="49" lean-forward="true" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
           <folding>
             <element signature="e#2936#2942#0" expanded="true" />
-            <element signature="e#3941#3947#0" expanded="true" />
-            <element signature="e#8343#8349#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8863#8869#0" expanded="true" />
             <element signature="e#9413#9419#0" expanded="true" />
             <element signature="e#12601#12607#0" expanded="true" />
+            <element signature="e#16205#16211#0" expanded="true" />
           </folding>
         </state>
       </provider>
