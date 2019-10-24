@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../InnovateML/innovateml/templates/auth/register.html" description="&lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;passwor..." line="0" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="40dd8c3f-f810-4f44-8c5d-9b2d7c6c840f" name="Default" comment="init m-l site">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emails.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rshah2020.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rshah2020.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rahul.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/rahul.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
@@ -28,8 +20,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+            <state relative-caret-position="228">
+              <caret line="110" column="109" selection-start-line="110" selection-start-column="109" selection-end-line="110" selection-end-column="109" />
+              <folding>
+                <element signature="e#2936#2942#0" expanded="true" />
+                <element signature="e#3941#3947#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,6 +52,8 @@
       <find>20</find>
       <find>vin</find>
       <find>o</find>
+      <find>z</find>
+      <find>gene</find>
     </findStrings>
     <replaceStrings>
       <replace>invert</replace>
@@ -89,8 +87,9 @@
         <option value="$PROJECT_DIR$/css/main2.css" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$USER_HOME$/.hyper.js" />
+        <option value="$PROJECT_DIR$/main.html" />
       </list>
     </option>
   </component>
@@ -113,6 +112,11 @@
             <path>
               <item name="rsha256.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="rsha256.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rsha256.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rsha256.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,6 +194,15 @@
       <workItem from="1567233355900" duration="14000" />
       <workItem from="1567233398820" duration="611000" />
       <workItem from="1567713050500" duration="1131000" />
+      <workItem from="1567977411573" duration="2236000" />
+      <workItem from="1568316098847" duration="1931000" />
+      <workItem from="1569077941892" duration="600000" />
+      <workItem from="1569239112804" duration="1290000" />
+      <workItem from="1569796218389" duration="577000" />
+      <workItem from="1570723633970" duration="246000" />
+      <workItem from="1571402374670" duration="1856000" />
+      <workItem from="1571694561310" duration="33000" />
+      <workItem from="1571694623140" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="init m-l site">
       <created>1544899222581</created>
@@ -202,7 +215,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50830000" />
+    <option name="totallyTimeSpent" value="61155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -223,7 +236,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32454696" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32379714" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="12" />
@@ -392,10 +405,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.hyper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/techdesk.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+        <state relative-caret-position="228">
+          <caret line="110" column="109" selection-start-line="110" selection-start-column="109" selection-end-line="110" selection-end-column="109" />
+          <folding>
+            <element signature="e#2936#2942#0" expanded="true" />
+            <element signature="e#3941#3947#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
