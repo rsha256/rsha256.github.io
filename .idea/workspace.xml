@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40dd8c3f-f810-4f44-8c5d-9b2d7c6c840f" name="Default" comment="init m-l site">
-      <change beforePath="$PROJECT_DIR$/img/favicon-1024.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="202" column="176" selection-start-line="202" selection-start-column="176" selection-end-line="202" selection-end-column="176" />
+            <state relative-caret-position="472">
+              <caret line="244" column="150" lean-forward="true" selection-start-line="244" selection-start-column="150" selection-end-line="244" selection-end-column="150" />
               <folding>
                 <element signature="e#2936#2942#0" expanded="true" />
                 <element signature="e#3941#3947#0" expanded="true" />
@@ -222,7 +221,7 @@
       <workItem from="1570723633970" duration="246000" />
       <workItem from="1571402374670" duration="1856000" />
       <workItem from="1571694561310" duration="33000" />
-      <workItem from="1571694623140" duration="3431000" />
+      <workItem from="1571694623140" duration="3839000" />
     </task>
     <task id="LOCAL-00001" summary="init m-l site">
       <created>1544899222581</created>
@@ -235,13 +234,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63030000" />
+    <option name="totallyTimeSpent" value="63438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.16913319" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.16913319" />
       <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.24876674" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -255,7 +254,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899868" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32769832" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32379714" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -447,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="202" column="176" selection-start-line="202" selection-start-column="176" selection-end-line="202" selection-end-column="176" />
+        <state relative-caret-position="472">
+          <caret line="244" column="150" lean-forward="true" selection-start-line="244" selection-start-column="150" selection-end-line="244" selection-end-column="150" />
           <folding>
             <element signature="e#2936#2942#0" expanded="true" />
             <element signature="e#3941#3947#0" expanded="true" />
