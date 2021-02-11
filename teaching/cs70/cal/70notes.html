@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EECS70 Notes</title>
+
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet"/>
+
+    <script crossorigin="anonymous"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+        };
+    </script>
+    <script async id="MathJax-script"
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <style>
+        li.indented {
+            margin-left: 30px;
+            list-style-type: circle;
+        }
+
+        li.d-indented {
+            margin-left: 60px;
+            list-style-type: square;
+        }
+
+        nav[data-toggle="toc"] {
+            top: 42px;
+        }
+
+        /* small screens */
+        @media (max-width: 768px) {
+            /* override stickyness so that the navigation does not follow scrolling */
+            nav[data-toggle="toc"] {
+                margin-bottom: 42px;
+                position: static;
+            }
+
+
+            nav[data-toggle='toc'] .nav .nav {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="sticky-top d-print-none" style="position: fixed">
+    <nav class="sticky-top" data-toggle="toc" id="toc"></nav>
+</div>
+
+<div class="container" style="padding-top: -25vh;">
+    <h2>CS70: Discrete Math</h2>
+
+    <h4>Set Theory</h4>
+    <ul>
+        <li>Sets consist only of unique elements</li>
+        <li>$\mathbb{N}$: Set of all natural numbers = $\{ |a| : a \in \mathbb{Z}\}=\{ 0, 1, 2, 3,\ldots\}$, it and
+            subsets are countably infinite
+        </li>
+        <li>$\mathbb{Z}$: Set of all Integers = $\{..., −3, −2, −1, 0, 1, 2, 3, \ldots\}$</li>
+        <li>ℝ: Set of all real numbers = everything not complex</li>
+        <li>$\mathbb{Q}$: Set of all rational numbers = $\{p/q : p \in \mathbb{Z}, q \in \mathbb{N}\}$. Set of all
+            irrational numbers $= \mathbb{R} \backslash \mathbb{Q}$
+        </li>
+        <li>Cardinality of a set S = |S| = Number of elements in set S</li>
+        <li>Subsets: Everything in subset is in superset, $A \neq B\implies B$ is a proper subset.</li>
+        <li>Union:</li>
+        <li class="indented">$A \cup B, \{x: x \in A \lor x \in B\}$</li>
+        <li class="indented">All the elements in set $A \lor$ in set $B$</li>
+        <li>Intersection:</li>
+        <li class="indented">$A\cap B, \{x: x \in A \land x \in B\}$</li>
+        <li class="indented">All the elements in set A and in set B</li>
+        <li>Set Difference:</li>
+        <li class="indented">$A \backslash B = A-B = \{x: x \in A, x \not\in B\}$</li>
+        <li class="indented">All the elements in set A not in set B</li>
+        <li>Cartesian Product:</li>
+        <li class="indented">$A \times B = \{(x,y): x\in A, y\in B\}$</li>
+        <li>If $A \cap B = \varnothing = \{\} = $ Empty Set, then A and B are disjoint sets</li>
+        <li class="indented">Example: even and odd numbers</li>
+        <li>Complements:</li>
+        <li class="indented">$A^c = A' = Ā:$ everything in the universe that’s not in a set</li>
+        <li class="indented">$A^c = \{x: x\not\in A, x\in \mathbb{U}\}$</li>
+        <li>Universes:</li>
+        <li class="indented">$\mathbb{U} =$ The set of all elements that we are looking at</li>
+        <li>DeMorgan’s Laws:</li>
+        <li class="indented">$(A \cap B)^c \equiv A^c \cup B^c$</li>
+        <li class="indented">$(A \cup B)^c \equiv A^c \cap B^c$</li>
+        <li>XOR: Exclusive Or</li>
+        <li class="indented">$A \oplus B = (A \lor B) \land (\lnot A \lor \lnot B$)</li>
+    </ul>
+
+    <h4>Logic & Proofs</h4>
+    <ul>
+        <li>Conjunction: and $=\land$. Disjunction: or $=\lor$</li>
+        <li>Proposition is either true or false (has no free variables): $(P \implies Q) =($ If p, then Q $)=(\lnot P
+            \lor Q)$
+        </li>
+        <li>Direct Proofs: Mainly used for proving implications $(P\implies Q)$. Assume $P$ then prove $Q$.</li>
+        <li>Contrapositive $=\lnot Q\implies\lnot P$. Equivalent to proposition. Assume $\lnot Q$ then prove $\lnot
+            P$.
+        </li>
+        <li>Contradiction: Assume $\lnot(P\implies Q)\equiv (P\land\lnot Q)$ and get a contradiction.</li>
+        <li>Proof by cases: Split claim into cases which cover entirety of the domain.</li>
+        <li>Converse $= (Q \implies P) \iff (\lnot P\implies\lnot Q) =$ Inverse. Not equiv to implication.</li>
+        <li>Absorption Rule: $P \lor (P \land Q) \equiv P \land (P \lor Q) \equiv P$</li>
+        <li>Tautology: always true. Contradiction: always false</li>
+        <img height="350" style="float: right" src="img/eecs70/prop-logic.jpeg"/>
+        <li>If and only if: $(A\text{ iff }B) = (A\iff B) = ((P \implies Q) \land (Q \implies P))$</li>
+        <li>Quantifiers: for all $\forall,$ there exists $\exists$ ($\exists$ is fluid for $\lor$ but not $\land$)</li>
+        <li>Induction:</li>
+        <li class="indented">Base Case:</li>
+        <li class="d-indented">(usually $n=0\lor n=1$)</li>
+        <li class="d-indented">Show LHS=RHS $\therefore$ base case holds</li>
+        <li class="indented">Induction hypothesis:</li>
+        <li class="d-indented">Assume holds for $n=k$ where $k\in(\sup n)$</li>
+        <li class="indented">Induction step:</li>
+        <li class="d-indented">Prove $P(k)\implies P(k+1)\therefore$ induction holds (use IH to do so)</li>
+        <li>Strong Induction: Assume previous values are true for $(\sup n) \leq n \leq k$ then prove $P(k)\implies
+            P(k+1)$.
+        </li>
+
+    </ul>
+
+    <h4>Stable Matching:</h4>
+    <ul>
+        <li>Propose-and-Reject Algorithm:</li>
+        <li class="indented">Every Morning: Each job proposes (i.e. makes an offer) to the most preferred candidate on
+                             its list who
+                             has not
+                             yet
+                             rejected this job.
+        </li>
+        <li class="indented">Every Afternoon: Each candidate collects all the offers she received in the morning; to the
+                             job offer
+                             she likes
+                             best
+                             among these, she responds “maybe” (she now has it in hand or on a string), and to the other
+                             offers she
+                             says “no”
+                             (i.e., she rejects them). (This is just a way for us to virtually model that there are no
+                             “exploding
+                             offers” and
+                             a
+                             job can’t withdraw an offer once an offer is made.)
+        </li>
+        <li class="indented">Every Evening: Each rejected job crosses off the candidate who rejected its offer from its
+                             list. The
+                             above loop
+                             is
+                             repeated each successive day until there are no offers rejected. At that point, each
+                             candidate has a job
+                             offer
+                             in
+                             hand (i.e. on a string); and on this day, each candidate accepts their offered job (i.e.
+                             the job offer
+                             she has
+                             in
+                             hand) and the algorithm terminates.
+        </li>
+        <li>Job propose and reject produces a job-optimal pairing (and candidate pessimal pairing)</li>
+        <li>Optimal: best stable outcome</li>
+        <li>Pessimal: worst stable outcome</li>
+        <img src="img/eecs70/stable_matching.jpeg">
+        <li>if there is only one stable matching then it is all of the 4 above</li>
+        <li>Improvement Lemma:</li>
+        <li>well-ordering principle:</li>
+        <li>every non empty subset of the positive integers has a least element
+            -
+        </li>
+    </ul>
+
+    <h4>Graph Theory:</h4>
+    <ul>
+        <li>Graph: $G = &lt;V, E&gt;$</li>
+        <li>Connected Graph: if there is a path between any two distinct vertices</li>
+        <li>If G is connected and has no edges $\implies |E_G| = |V|-1$.</li>
+        <li>Connected Components: sets of connected vertices</li>
+        <li>Incident: vertices an edge touches</li>
+        <li>Adjacent/Neighbors: vertices that are connected by edges</li>
+        <li>Isolated: vertex of degree 0</li>
+        <li>Degree of a vertex: number of edges attached to a vertex</li>
+        <li>Simple graph: undirected graph with no loops/multiple edges to a vertex</li>
+        <li>Closed: start=end. Else open.</li>
+        <!--Table-->
+        <table id="tablePreview" class="table">
+            <!--Table head-->
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Definition</th>
+                <th>No&nbsp;repeat edges</th>
+                <th>No repeat vertices</th>
+                <th>Same 1st + last node</th>
+                <th>Visits <i>every</i> edge once</th>
+                <th>Visits <i>every</i> vertex once</th>
+            </tr>
+            </thead>
+            <!--Table head-->
+            <!--Table body-->
+            <tbody>
+            <tr>
+                <td>Simple Path</td>
+                <td>Sequence of connected edges with <b>distinct</b> vertices</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Cycle (or circuit)</td>
+                <td>Simple path with v1 = vk; all cycles are tours</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Walk</td>
+                <td>any sequence of connected edges: $\{v_1, v_2\}, \{v_2, v_3\}, \{v_3, v_4\}\ldots$</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Tour</td>
+                <td>walk that starts and ends at same node</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Eulerian Walk</td>
+                <td>connected and at most two odd degree vertices</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Eulerian Tour</td>
+                <td>iff connected and every vertex has even degree (allows isolated vertices)</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Hamiltonian Walk</td>
+                <td>contains |V|-1 edges</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Hamiltonian Tour</td>
+                <td>all hypercubes have one, contains |V| edges</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            </tbody>
+            <!--Table body-->
+        </table>
+        <!--Table-->
+        <li>Tree: an acyclic graph where any edge addition creates a cycle</li>
+        <li class="indented">a connected graph without a cycle</li>
+        <li class="indented">a connected graph with |V| − 1 edges</li>
+        <li class="indented">a connected graph where any edge removal disconnects it</li>
+        <li>Planar: Can be drawn with no edge crossings, $\implies (e\leq 3v-6)\lor (v+f=e+2)$.</li>
+        <li class="indented">Prove planar: Does not contain $K_{3, 3} \lor K_5$.</li>
+        <li>Bipartite: two-colorable, no odd length cycles, can be split into left and right</li>
+        <li>Hypercubes: n-dimensional hypercube is made of 2 (n-1)-d hypercubes. Proofs use reverse on 1 (n-1)-d
+            subcube.
+        </li>
+    </ul>
+
+    <h4>Modular Arithmetic:</h4>
+    <h5>Division Algorithm:</h5>
+    <ul>
+        <img height="250" style="float: right" src="img/eecs70/egcd.png"/>
+        <li>$a\mid b \iff (∃q \in \mathbb{Z}, b = aq)$</li>
+        <li>$n = dq + r$ where $0 \leq r < q,q\in\mathbb{Z}. \implies (a \equiv b \pmod m \iff m \mid (a - b))$</li>
+        <li>n: dividend</li>
+        <li>d: divisor</li>
+        <li>q: quotient</li>
+        <li>r: remainder</li>
+        <li>Seen in algebra as: $\frac n d = q + \frac r d$</li>
+        <li>Any <strong>even</strong> integer can be expressed as $2k, k\in\mathbb{Z}$</li>
+        <li>Any <strong>odd</strong> integer can be expressed as $2k + 1, k \in \mathbb{Z}$</li>
+        <li>Fundamental Theorem of Arithmetic: prime factorization exists</li>
+        <li>GCD: min of prime factorization powers, LCM: max of prime factorization powers.
+            $\text{lcm}(a,b)=\frac{|a\cdot b|}{\gcd(a,b)}$
+        </li>
+        <img height="150" style="float: right" src="img/eecs70/gcd.JPG"/>
+        <li>Euclid’s: $d=\gcd(x, y) = \gcd(y, x \pmod y) = \exists a,b: ax+by$</li>
+        <li>Modular inverses $(\exists a^{-1} \iff \gcd(a, m) = 1)\implies(\exists x: ax \equiv 1 \pmod m)$</li>
+        <li>Fermat’s Little Theorem:</li>
+        <li>For prime $p, a^{p-1} \equiv 1 \pmod p$</li>
+        <li>CRT: If moduli are coprime</li>
+        <img height="250" src="img/eecs70/CRT.jpg"/>
+    </ul>
+
+    <h5>RSA:</h5>
+    <ul>
+        <li>$N=p\cdot q$</li>
+        <li>$e$ is relatively prime to $(p-1)(q-1)$ (so an inverse exists). Usually $e=3 \lor e=2^{16}+1=65537$.</li>
+        <li>Public key: $(N, e)$</li>
+        <li>Private key: $d$, $d \equiv e^{-1} \pmod{(p−1)(q−1)}$.</li>
+        <li>$E(x) = x^e \pmod N$ and sends this to Bob.</li>
+        <li>Given $y = E(x)$, computing $D(y) = y^d \pmod N$ will give back x as $D(E(x))=x \pmod N$.</li>
+        <li>Efficiency: comes from repeated squaring</li>
+    </ul>
+
+
+    <h5>Bijections</h5>
+    <ul>
+        <li>Injection</li>
+        <li>all y are are used ≤ 1</li>
+        <li>each element in the codomain is pointed to at most once</li>
+        <li>|A| ≤ |B|</li>
+        <li>one-to-one</li>
+        <li>Proofs:</li>
+        <li>horizontal line test</li>
+        <li>derivative test (if always incr/always decr)</li>
+        <li>MUST HAVE SIGN CHANGE</li>
+        <li>f(a)=f(b) \implies a=b</li>
+        <li>To disprove injectivity:</li>
+        <li>Pigeonhole Principle:</li>
+        <li>Let n and k be positive integers. Place n objects into k boxes. If n > k, then at least one box must
+            contain
+            multiple objects
+        </li>
+        <li>Surjective</li>
+        <li>all y are used ≥ 1 (codomain=range)</li>
+        <li>each element in the codomain is pointed to at least once</li>
+        <li>|A| ≥ |B|</li>
+        <li>onto</li>
+        <li>Does range cover codomain exactly?</li>
+        <li>Polynomials of odd degree are always surjective with codomain ℝ</li>
+        <li>Bijection</li>
+        <li>all y are used exactly once</li>
+        <li>|A| = |B|</li>
+        <li>one-to-one and onto</li>
+        <li>surjection + injection</li>
+        <li>iff ∃ multiplicative inverse</li>
+    </ul>
+
+    <h4>Polynomials</h4>
+    <ul>
+        <img height="370" style="float: right" src="img/eecs70/lagrange_interpolation.png"/>
+        <li>Uniqueness Fact: Given $d+1$ points, you can construct at most 1 degree d polynomial</li>
+        <li class="indented">Example: given 2 points, once can construct a line (which has degree 1)</li>
+        <li>Roots Fact: Any nontrivial degree d polynomial has at most d roots</li>
+        <li class="indented">where the trivial polynomial is defined as $y=0$</li>
+        <li class="indented">Examples: A line (degree 1) has at most 1 root, a quadratic (degree 2) has at most 2
+                             roots
+        </li>
+        <li>If $f$ and $g$ are non-zero real polynomials then the roots are:</li>
+        <li class="indented">$0 \leq f + g \leq \max(\text{deg}_f, \text{deg}_g)$</li>
+        <li class="indented">$0 \leq f \cdot g \leq (\text{deg}_f + \text{deg}_g)$</li>
+        <li class="indented">$0 \leq f / g \leq (\text{deg}_f - \text{deg}_g)$</li>
+        <img height="150" style="" src="img/eecs70/poly_long_division.jpg"/>
+    </ul>
+    <h5>Fields:</h5>
+    <ul>
+        <li>Modulo arithmetic with a prime moduli is a "field"</li>
+    </ul>
+
+    <h4>Counting</h4>
+    <ul>
+        <li>the number of sequences of $k$ cards $=52\times 51\times ··· \times [52−(k −1)]$</li>
+        <li>First Rule of Counting: total number of distinct objects $= n_1 \times n_2 \times n_3 \times ··· \times
+            n_k$ where $n_i$ is the branching factor
+        </li>
+        <li>Binomial Coefficient $ = \frac{n!}{(n-k)!k!} = {n\choose k}$ = the number of ways of choosing k objects out
+            of a total of n distinct objects, where the order of the choices does not matter.
+        </li>
+        <li>Second Rule of Counting: Assume an object is made by a succession of choices, and the order in which the
+            choices are made does not matter. Let A be the set of ordered objects and let B be the set of unordered
+            objects. If there exists an m-to-1 function f from A to B, we can count the number of ordered objects
+            (pretending that the order matters) and divide by m (the number of ordered objects per unordered objects) to
+            obtain |B|, the number of unordered objects
+        </li>
+        <li>Stars and bars: $\binom{n+k-1}{n}$</li>
+    </ul>
+
+    <h4>Probability Theory:</h4>
+    <ul>
+        <li>P(A U B) = P(A) + P(B)</li>
+        <li>P(A^B)</li>
+        <li>Baye’s theorem: Probability of A given B:</li>
+        <li>P(A|B) = P(A n B) / P(B) = P(B|A)*P(A)/P(B)</li>
+    </ul>
+
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+</div>
+</body>
+</html>
