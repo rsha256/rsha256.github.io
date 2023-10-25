@@ -1,500 +1,457 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Rahul Shah</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link href="css/main2.css" rel="stylesheet" />
+    <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+    <title>jemdoc+MathJax</title>
+    <!-- MathJax -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"
+      async
+    ></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+      });
+    </script>
+    <!-- End MathJax -->
+    <!-- Google Analytics -->
+    <!-- TODO: add -->
+    <!-- End Google Analytics -->
+
+    <style>
+      #layout-content {
+        margin-left: 210px; /* Adjust margin to match the width of layout-menu plus some padding */
+        display: block;
+      }
+
+      .layout-wrapper {
+        display: flex;
+      }
+
+      #layout-menu {
+        position: fixed; /* use sticky instead of fixed for better compatibility */
+        top: 0; /* ensures it stays at the top */
+        overflow-y: auto; /* allow scrolling if content exceeds height */
+      }
+
+      #layout-content {
+        flex-grow: 1; /* makes the content area grow to fill the remaining space */
+      }
+    </style>
   </head>
   <body>
-    <main>
-      <nav class="black" role="navigation">
-        <div class="nav-wrapper">
-          <a class="brand-logo" href="#" id="logo-container">
-            <!-- to do: maybe add a Left Header? -->
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="main.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-
-          <ul class="sidenav" id="nav-mobile">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="main.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <a class="sidenav-trigger" data-target="nav-mobile" href="#"
-            ><i class="material-icons">menu</i></a
-          >
-        </div>
-      </nav>
-      <div class="container">
-        <div class="mobile-hide sidenav sidenav-fixed" id="slide-out">
-          <div class="center container">
-            <a>
-              <img class="small circle" src="img/me.png" alt="" />
-              <h4>Rahul Shah</h4>
-            </a>
-            <p>Feel free to connect with me:</p>
-          </div>
-          <ul>
-            <li class="spacer"></li>
-            <li>
-              <a href="https://devpost.com/rsha256" target="_blank">
-                <img
-                  alt="Devpost"
-                  class="icons"
-                  src="img/icons/Devpost/PNG/Devpost.png"
-                />
-                <span>Devpost</span></a
-              >
-            </li>
-            <li>
-              <a href="https://facebook.com/rsha256" target="_blank">
-                <img
-                  alt="Facebook"
-                  class="icons"
-                  src="img/icons/facebook/PNG/facebook.png"
-                />
-                <span>Facebook</span></a
-              >
-            </li>
-            <li>
-              <a href="https://github.com/rsha256" target="_blank">
-                <img
-                  alt="GitHub"
-                  class="icons"
-                  src="img/icons/GitHub/PNG/GitHub-Mark-32px.png"
-                />
-                <span>GitHub</span></a
-              >
-            </li>
-            <li>
-              <a href="https://linkedin.com/in/rsha256" target="_blank">
-                <img
-                  alt="LinkedIn"
-                  class="icons linked-in"
-                  src="img/icons/LinkedIn/LinkedIn.png"
-                />
-                <span>LinkedIn</span></a
-              >
-            </li>
-            <li>
-              <a href="https://twitter.com/rsha256" target="_blank">
-                <img class="icons" src="img/icons/Twitter/Twitter.png" alt="" />
-                <span>Twitter</span></a
-              >
-            </li>
-            <li>
-              <a>
-                <img class="icons" src="img/icons/resume.png" alt="" />
-                <span>resume</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <h5>Teaching</h5>
-        <section>
-          <a href="teaching/teaching.html">CSM</a>
-        </section>
-        <h5>Projects</h5>
-        <br /><br />
-        <form action="" method="post"></form>
-        <section>
-          <div class="row">
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/step.jpg" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >STEP For a Better World<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a href="https://rsha256.github.io/STEP" target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >President<i class="material-icons right">close</i></span
-                  >
-                  <p>
-                    Started as a volunteer in 7th grade and progressed to
-                    President. Planned events as a Leo Club non-profit
-                    organization to help the underprivileged
-                  </p>
-                </div>
-              </div>
+    <div class="layout-wrapper">
+      <table summary="Table for page layout." id="tlayout">
+        <tr valign="top">
+          <td id="layout-menu">
+            <div class="menu-category">Rahul Shah</div>
+            <div class="menu-item"><a href="index.html">About</a></div>
+            <div class="menu-item">
+              <a href="#" id="secret-link" target="_blank">CV</a>
             </div>
-            
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/questlin.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >Questlin<i class="material-icons right">more_vert</i></span
-                  >
-                  <p>
-                    <a href="https://www.questlin.com/" target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Lead Backend Developer; Head of Outreach<i
-                      class="material-icons right"
-                      >close</i
-                    ></span
-                  >
-                  <p>
-                    Worked together with a team to develop an App which
-                    currently has 300 cumulative Downloads through the iOS
-                    AppStore and Android PlayStore. Featured on the App store:
-                    <a
-                      href="https://apps.apple.com/us/story/id1463610907"
-                      target="_blank"
-                    >
-                      article</a
-                    >. Tested by official 501c3 non-profits in NJ and NY and won
-                    the 2019 Congressional App Challenge for helping to promote
-                    volunteering!
-                  </p>
-                </div>
-              </div>
+            <div class="menu-category">Notes</div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/CS-160-Lecture-Notes/CS_160_Lecture_Notes.pdf"
+                target="_blank"
+                >CS 160</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/cs182-scribe/res.pdf"
+                target="_blank"
+                >CS 182</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/EE-120-Lecture-Notes/EE_120_Lecture_Notes.pdf"
+                >EE 120</a
+              >
+            </div>
+            <div class="menu-item"><a href="notes/EE122.pdf">EE 122</a></div>
+            <div class="menu-item">
+              <a href="notes/S33B.pdf" target="_blank">STAT 33B</a>
+            </div>
+            <div class="menu-category">Review Sheets</div>
+            <div class="menu-item">
+              <a href="https://www.overleaf.com/read/krjkstdxfccv">CS 170</a>
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/CS-189-Cheatsheet/CS_189_Cheatsheet.pdf"
+                target="_blank"
+                >CS 189</a
+              >
+            </div>
+            <div class="menu-item">
+              <a href="notes/EE_106_Cheatsheet.pdf">EE 106</a>
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://drive.google.com/file/d/1xOvdR9zi_y9W3CUPSlFRwzqRO37cYgp7/view"
+                >EE 126</a
+              >
+            </div>
+            <div class="menu-category">Research</div>
+            <div class="menu-item">
+              <a href="rsh.html">Publications</a>
+            </div>
+            <div class="menu-category">Teaching</div>
+            <div class="menu-item">
+              <a href="https://rsha256.github.io/teaching/csm88.html"
+                >CS 88/61A</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/teaching/cs61b.html"
+                target="_blank"
+                >CS 61B</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/teaching/cs70.html"
+                target="_blank"
+                >CS 70</a
+              >
+            </div>
+            <div class="menu-item">
+              <a href="" target="_blank">Data C100</a>
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://bcourses.berkeley.edu/courses/1513572"
+                target="_blank"
+                >EE 122</a
+              >
+            </div>
+            <div class="menu-item">
+              <a
+                href="https://rsha256.github.io/algorithmicthinking/"
+                target="_blank"
+                >CS 198-112</a
+              >
+            </div>
+            <div class="menu-category">Software</div>
+            <div class="menu-item">
+              <a href="https://github.com/rsha256/TI-Programs">TI-Programs</a>
+            </div>
+          </td>
+          <td id="layout-content">
+            <div id="toptitle">
+              <h1>Rahul Shah</h1>
             </div>
 
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/gcode.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >Genesis&nbsp;Code<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a href="http://genesiscode.org/" target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Co-founder<i class="material-icons right">close</i></span
-                  >
-                  <p>
-                    Co-founder of local 501c3 nonprofit organization that helps
-                    teach coding to those in over 20 countries, throughout
-                    multiple local locations. Held in libraries and other local
-                    locations, we aim to teach coding to those who don't have
-                    the opportunities to learn themselves
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
+            <table class="imgtable">
+              <tr>
+                <td>
                   <img
-                    class="activator center"
-                    src="img/wwpme.png"
-                    style="width: 215px; padding-left: 30px"
-                    alt=""
-                  />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >WWPME<i class="material-icons right">more_vert</i></span
-                  >
+                    src="img/me.png"
+                    alt="Rahul Shah"
+                    width="260px"
+                    height="240px"
+                    style="border-radius: 50%"
+                  />&nbsp;
+                </td>
+                <td align="left">
                   <p>
-                    <a href="https://wwpme.org/" target="_blank">Our Site</a>
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Lead Director of Technology<i class="material-icons right"
-                      >close</i
-                    ></span
-                  >
-                  <p>
-                    Led team and developed/manage a website using a python
-                    backend and MongoDB. Website is currently used by over 500
-                    users
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/techdesk.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >Tech&nbsp;Desk<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a
-                      href="https://wwphsstechdesk.team/index.html"
-                      target="_blank"
-                      >Our Site</a
+                    I am a fourth year undergraduate at
+                    <a href="http://berkeley.edu" target="_blank"
+                      >UC Berkeley</a
                     >
+                    studying Computer Science, Mathematics, and Statistics.
                   </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >President<i class="material-icons right">close</i></span
-                  >
                   <p>
-                    Helped fix technology issues throughout the school during my
-                    study hall and lunch periods
+                    In Fall 2023 I will TA
+                    <b
+                      ><a href="https://ds100.org/fa23/" target="_blank"
+                        >Data C100</a
+                      ></b
+                    >, Berkeley's Data Science/Machine Learning course.
                   </p>
-                </div>
-              </div>
-            </div>
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/proj_pride.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >Project&nbsp;Pride<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a href="https://projectpride.team" target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >President<i class="material-icons right">close</i></span
-                  >
-                  <p>
-                    Current President of Project Pride, Member since 6th grade;
-                    helped promote confidence and public speaking in
-                    middle-schoolers
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+                </td>
+              </tr>
+            </table>
 
-          <div class="row">
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/cr.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >ClassReveal<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a href="https://classreveal.com" target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Head Team Leader/Developer 2018 & 2019<i
-                      class="material-icons right"
-                      >close</i
-                    ></span
-                  >
-                  <p>
-                    Led team to create mobile app that allows students to view
-                    their class rosters by crowd-sourcing. 2018: 2105 users;
-                    2019: 2876 users
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/cec.jpg" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >Computer Engineering<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <!--                            <p><a href="https://southcomputerengineering.tech/index.html" target="_blank">Our Site</a></p>-->
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Officer<i class="material-icons right">close</i></span
-                  >
-                  <p>
-                    Help teach students about Computer Science, Computer
-                    Engineering, Public Speaking, and showed how to develop a
-                    complete product and go beyond the code
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/csr.svg" alt="" />
-                  <!--                            <img class="activator" src="img/csr2.png" alt="">-->
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >CS&nbsp;Remastered<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a href="https://csremastered.org/" target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Director of Logistics<i class="material-icons right"
-                      >close</i
-                    ></span
-                  >
-                  <p>
-                    Co-founder of local 501c3 nonprofit organization that helps
-                    teach coding to those in over 20 countries, throughout
-                    multiple local locations. Held in libraries and other local
-                    locations, we aim to teach coding to those who don't have
-                    the opportunities to learn themselves
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+            <h2>Portfolios</h2>
+            <a href="https://cal-cs184-student.github.io/project-webpages-sp23-rsha256/">https://cal-cs184-student.github.io/project-webpages-sp23-rsha256/</a>
 
-          <div class="row">
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/frc.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >FIRST Robotics<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a href="http://firstrobotics1923.org/" target="_blank"
-                      >Our Site</a
+            <h2>Research</h2>
+            <script>
+              var xmlhttp = new XMLHttpRequest();
+              xmlhttp.open("GET", "./rsh.html", false);
+              xmlhttp.send();
+              document.write(xmlhttp.responseText);
+            </script>              
+
+            <h2>Berkeley Courses</h2>
+            This table is an example of what GPT 3 can do:
+            <br />
+            <br />
+            <table id="coursetable2">
+              <tbody>
+                <tr class="r1">
+                  <td class="c1">Semester</td>
+                  <td class="c2">Class</td>
+                  <td class="c3">Name</td>
+                  <td class="c4">Instructor</td>
+                </tr>
+                <tr class="r2">
+                  <td class="c1">Su 20</td>
+                  <td class="c2">
+                    <a href="https://inst.eecs.berkeley.edu/~cs61a/su20/"
+                      >CS 61A</a
                     >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >Programmer<i class="material-icons right">close</i></span
-                  >
-                  <p>
-                    Developed Autonomous Field Tracking, Sensor Code, and led
-                    Java + WPILib programming classes. Made Worlds every year &
-                    recognized for engineering excellence at Worlds
-                  </p>
-                </div>
+                  </td>
+                  <td class="c3">
+                    SICP
+                  </td>
+                  <td class="c4">John DeNero</td>
+                </tr>
+                <tr class="r3">
+                  <td class="c1">Fa 20</td>
+                  <td class="c2">
+                    <a href="https://fa20.datastructur.es/">CS 61B</a>
+                  </td>
+                  <td class="c3">Data Structures</td>
+                  <td class="c4">Josh Hug</td>
+                </tr>
+                <tr class="r4">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="http://www.fa20.eecs70.org/">CS 70</a>
+                  </td>
+                  <td class="c3">Discrete Mathematics & Probability Theory</td>
+                  <td class="c4">Satish Rao</td>
+                </tr>
+                <tr class="r5">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="https://iosdev.berkeley.edu/">CS 198-001</a>
+                  </td>
+                  <td class="c3">iOS DeCal (Audited)</td>
+                  <td class="c4">DeCal</td>
+                </tr>
+                <tr class="r6">
+                  <td class="c1">Sp 21</td>
+                  <td class="c2">
+                    <a href="https://www.data8.org/sp21/">DATA C8</a>
+                  </td>
+                  <td class="c3">Foundations of Data Science</td>
+                  <td class="c4">Babak Ayazifar, Swupnil Sahai</td>
+                </tr>
+                <tr class="r7">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="https://inst.eecs.berkeley.edu/~ee16a/sp21/"
+                      >EECS 16A</a
+                    >
+                  </td>
+                  <td class="c3">
+                    Linear Algebra and Circuits I
+                  </td>
+                  <td class="c4">Laura Waller</td>
+                </tr>
+                <tr class="r8">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="https://inst.eecs.berkeley.edu/~cs61c/sp21/"
+                      >CS 61C</a
+                    >
+                  </td>
+                  <td class="c3">Great Ideas of Computer Architecture</td>
+                  <td class="c4">Nick Weaver</td>
+                </tr>
+                <tr class="r9">
+                  <td class="c1"></td>
+                  <td class="c2">CS 370</td>
+                  <td class="c3">
+                    Adaptive Instruction Methods in Computer Science
+                  </td>
+                  <td class="c4">Chris Hunn</td>
+                </tr>
+                <tr class="r10">
+                  <td class="c1">Su 21</td>
+                  <td class="c2">
+                    <a href="https://cs61bl.org/su21/">CS 61BL Staff</a>
+                  </td>
+                  <td class="c3">Tutor for CS 61BL</td>
+                  <td class="c4">(Hulyalkar, Omaly, Park)</td>
+                </tr>
+                <tr class="r11">
+                  <td class="c1"></td>
+                  <td class="c2">Math W53</td>
+                  <td class="c3">Multivariable Calculus</td>
+                  <td class="c4">Thomas Scanlon</td>
+                </tr>
+                <tr class="r12">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="https://ds100.org/su21/">Data C100</a>
+                  </td>
+                  <td class="c3">Principles and Techniques of Data Science</td>
+                  <td class="c4">Kunani, Schmidt</td>
+                </tr>
+                <tr class="r13">
+                  <td class="c1">Fa 21</td>
+                  <td class="c2">
+                    <a href="https://fa21.cs161.org/">CS 161</a>
+                  </td>
+                  <td class="c3">Computer Security</td>
+                  <td class="c4">Nick Weaver</td>
+                </tr>
+                <tr class="r14">
+                  <td class="c1"></td>
+                  <td class="c2">CS 170</td>
+                  <td class="c3">
+                    Efficient Algorithms and Intractable Problems
+                  </td>
+                  <td class="c4">Jelani Nelson</td>
+                </tr>
+                <tr class="r15">
+                  <td class="c1"></td>
+                  <td class="c2">CS 194-177</td>
+                  <td class="c3">Decentralized Finance</td>
+                  <td class="c4">Dawn Song</td>
+                </tr>
+                <tr class="r16">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="https://inst.eecs.berkeley.edu/~eecs16b/fa21/"
+                    >EECS 16B</a
+                    >
+                  </td>
+                  <td class="c3">
+                    Machine Learning in a Dynamic World
+                  </td>
+                  <td class="c4">Anant Sahai, Vladimir Stojanovic</td>
+                </tr>
+                <tr class="r17">
+                  <td class="c1"></td>
+                  <td class="c2">INFO 253A</td>
+                  <td class="c3">Front-End Web Architecture</td>
+                  <td class="c4">Kay Ashaolu</td>
+                </tr>
+                <tr class="r18">
+                  <td class="c1">Sp 22</td>
+                  <td class="c2"><a href="https://people.eecs.berkeley.edu/~jrs/189s22/">CS 189</a></td>
+                  <td class="c3">Machine Learning</td>
+                  <td class="c4">Jonathan Shewchuk</td>
+                </tr>
+                <tr class="r19">
+                  <td class="c1"></td>
+                  <td class="c2"><a href="https://inst.eecs.berkeley.edu/~ee126/sp22/">EECS 126</a></td>
+                  <td class="c3">Probability and Random Processes</td>
+                  <td class="c4">Kannan Ramchandran</td>
+                </tr>
+                <tr class="r20">
+                  <td class="c1">Fa 22</td>
+                  <td class="c2"><a href="https://inst.eecs.berkeley.edu/~cs164/fa22/schedule.html">CS 164</a></td>
+                  <td class="c3">Programming Languages and Compilers</td>
+                  <td class="c4">Sarah Chasins</td>
+                </tr>
+                <tr class="r21">
+                  <td class="c1"></td>
+                  <td class="c2">
+                    <a href="https://inst.eecs.berkeley.edu/~cs182/fa22/"
+                    >CS 182</a
+                    >
+                  </td>
+                  <td class="c3">Deep Neural Networks</td>
+                  <td class="c4">Anant Sahai</td>
+                </tr>
+                <tr class="r22">
+                  <td class="c1"></td>
+                  <td class="c2">CS 285</td>
+                  <td class="c3">
+                    Deep Reinforcement Learning, Decision Making, and Control
+                  </td>
+                  <td class="c4">Sergey Levine</td>
+                </tr>
+                <tr class="r23">
+                  <td class="c1"></td>
+                  <td class="c2">EE 106A</td>
+                  <td class="c3">Robotics</td>
+                  <td class="c4">S. Shankar Sastry</td>
+                </tr>
+                <tr class="r24">
+                  <td class="c1"></td>
+                  <td class="c2">EE 120</td>
+                  <td class="c3">Signals & Systems</td>
+                  <td class="c4">Babak Ayazifar</td>
+                </tr>
+                <tr class="r25">
+                  <td class="c1">Sp 23</td>
+                  <td class="c2">CS 160</td>
+                  <td class="c3">User Interface Design and Development</td>
+                  <td class="c4">Bjoern Hartmann</td>
+                </tr>
+                <tr class="r26">
+                  <td class="c1"></td>
+                  <td class="c2"><a href="https://cs184.eecs.berkeley.edu/sp23/">CS 184</a></td>
+                  <td class="c3">Foundations of Computer Graphics</td>
+                  <td class="c4">Ren Ng, James O'Brien</td>
+                </tr>
+                <tr class="r27">
+                  <td class="c1"></td>
+                  <td class="c2">CS C267</td>
+                  <td class="c3">Applications of Parallel Computers</td>
+                  <td class="c4">James Demmel</td>
+                </tr>
+                <tr class="r28">
+                  <td class="c1"></td>
+                  <td class="c2">CS 288</td>
+                  <td class="c3">Natural Language Processing</td>
+                  <td class="c4">Dan Klein</td>
+                </tr>
+                <tr class="r29">
+                  <td class="c1"></td>
+                  <td class="c2"><a href="http://www.forecastingclass.com/calendar/">STAT 165</a></td>
+                  <td class="c3">Forecasting</td>
+                  <td class="c4">Jacob Steinhardt</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h2>Teaching</h2>
+            I was also an Academic Intern for CS 70 in Spring 2021 and for Data 8 and Data 100 in Fall 2021.
+
+            <h2>ECs</h2>
+            <p>
+              Here are a few websites found on Google that show the actual usage
+              of jemdoc+MathJax:
+            </p>
+
+            <h2>Internships</h2>
+            <p>
+              Here are a few websites found on Google that show the actual usage
+              of jemdoc+MathJax:
+            </p>
+
+            <h2>Contact</h2>
+            <p>Email me @ rsha256[at]berkeley[dot]edu.</p>
+
+            <div id="footer">
+              <div id="footer-text">
+                Page generated <span id="current-date-time">loading...</span>,
+                by
+                <a
+                  href="https://github.com/wsshin/jemdoc_mathjax"
+                  target="_blank"
+                  >jemdoc+MathJax</a
+                >.
               </div>
             </div>
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/csi.png" alt="" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4"
-                    >CS&nbsp;Innovators<i class="material-icons right"
-                      >more_vert</i
-                    ></span
-                  >
-                  <p>
-                    <a
-                      href="https://southcomputerscience.tech/index.html"
-                      target="_blank"
-                      >Our Site</a
-                    >
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4"
-                    >President '18; Director '19<i class="material-icons right"
-                      >close</i
-                    ></span
-                  >
-                  <p>
-                    Helped school get nationally recognized as having the most
-                    Hackathon wins by Major League Hacking for 3 yrs in a row —
-                    with my over 8 MLH Hackathon wins
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--                <div class="col s4">-->
-            <!--                    <div class="card">-->
-            <!--                        <div class="card-image waves-effect waves-block waves-light">-->
-            <!--                            <img class="activator" src="img/proj_pride.png" alt="">-->
-            <!--                        </div>-->
-            <!--                        <div class="card-content">-->
-            <!--                            <span class="card-title activator grey-text text-darken-4">Project&nbsp;Pride<i-->
-            <!--                                    class="material-icons right">more_vert</i></span>-->
-            <!--                            <p><a href="https://projectpride.team" target="_blank">Our Site</a></p>-->
-            <!--                        </div>-->
-            <!--                        <div class="card-reveal">-->
-            <!--                            <span class="card-title grey-text text-darken-4">President<i class="material-icons right">close</i></span>-->
-            <!--                            <p>Current President of Project Pride, Member since 6th grade; helped promote confidence and public speaking in middle-schoolers</p>-->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-          </div>
-        </section>
-        <br />
+          </td>
+        </tr>
+      </table>
+    </div>
 
-        <section>
-          <h3>My 2020 Github Contribution chart 😛:</h3>
-          <img src="https://ghchart.rshah.org/rsha256" alt="My Github Chart" />
-        </section>
-
-        <section>
-          <div class="filler"></div>
-        </section>
-      </div>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
