@@ -3,7 +3,7 @@ document.getElementById('secret-link').addEventListener('click', function (event
     const password = prompt('Enter the password:');
 
     if (password) {
-        window.location.href += password + '/rahul_shah_resume.pdf';
+        window.location.href = 'https://rsha256.github.io/' + password + '/rahul_shah_resume.pdf';
     }
 });
 
