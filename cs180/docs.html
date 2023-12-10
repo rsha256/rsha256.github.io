@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Project Documentation</h1>
+
+        <section id="utils">
+            <h2><a href="https://rsha256.github.io/cs180/utils.py">utils.py</a></h2>
+            <p>This module contains utility functions used for image processing and manipulation. You can import it from a notebook in the same directory simply via <code>import utils</code>.</p>
+            
+            <section id="poly2mask">
+                <h3>Function: poly2mask</h3>
+                <p>Converts polygon coordinates into a mask of the same dimensions as the input shape. It is typically used in image segmentation tasks.</p>
+                <pre><code>def poly2mask(vertex_row_coords, vertex_col_coords, shape):</code></pre>
+            </section>
+    
+            <section id="specify_bottom_center">
+                <h3>Function: specify_bottom_center</h3>
+                <p>Enables user interaction to specify the bottom-center location of an object in an image. Useful in tasks where precise object placement is required.</p>
+                <pre><code>def specify_bottom_center(img):</code></pre>
+            </section>
+    
+            <section id="align_source">
+                <h3>Function: align_source</h3>
+                <p>Aligns a source object image within a target background image at a specified bottom-center location, considering a given mask. Commonly used in image composition.</p>
+                <pre><code>def align_source(object_img, mask, background_img, bottom_center):</code></pre>
+            </section>
+
+            <section id="upper_left_background_rc">
+                <h3>Function: upper_left_background_rc</h3>
+                <p>Calculates the upper-left (row, column) coordinates in the background image that correspond to the (0,0) position in the object image. Essential for precise image alignment tasks.</p>
+                <pre><code>def upper_left_background_rc(object_mask, bottom_center):</code></pre>
+            </section>
+
+            <section id="crop_object_img">
+                <h3>Function: crop_object_img</h3>
+                <p>Extracts and crops the area of an object image based on the provided object mask. This function is crucial for isolating objects from their background.</p>
+                <pre><code>def crop_object_img(object_img, object_mask):</code></pre>
+            </section>
+
+            <section id="get_combined_img">
+                <h3>Function: get_combined_img</h3>
+                <p>Combines an object image and a background image based on the specified upper-left coordinate, creating a composite image. It is used in applications like photo editing and computer-generated imagery.</p>
+                <pre><code>def get_combined_img(bg_img, object_img, object_mask, bg_ul):</code></pre>
+            </section>
+
+            <section id="specify_mask">
+                <h3>Function: specify_mask</h3>
+                <p>Facilitates user interaction to draw a polygon around an object in an image, which can then be used to create a mask. This function is particularly useful in manual segmentation tasks.</p>
+                <pre><code>def specify_mask(img):</code></pre>
+            </section>
+
+            <section id="get_mask">
+                <h3>Function: get_mask</h3>
+                <p>Generates a mask for an image based on the specified polygon coordinates. It's a key step in image segmentation and object isolation processes.</p>
+                <pre><code>def get_mask(ys, xs, img):</code></pre>
+            </section>
+
+        </section>
+
+        <!-- GradientDomainFushion.ipynb section -->
+        <section id="notebook">
+            <h2><a href="https://rsha256.github.io/cs180/GradientDomainFushion.ipynb">GradientDomainFushion.ipynb</a></h2>
+            <p>This Jupyter Notebook demonstrates the implementation of Gradient Domain Fusion in image processing, covering toy problems, Poisson blending, mixed gradients, and additional advanced techniques.</p>
+            
+            <!-- Part 1: Toy Problem -->
+            <section id="part1">
+                <h3>Part 1: Toy Problem</h3>
+                <p>This section focuses on reconstructing an image from its gradient values. It serves as an introduction to gradient domain processing.</p>
+                <pre><code>def toy_reconstruct(img):
+    # Implementation details
+</code></pre>
+            </section>
+
+            <!-- Preparation -->
+            <section id="preparation">
+                <h3>Preparation</h3>
+                <p>Setup for the image processing tasks, including loading and displaying the images to be used.</p>
+                <pre><code># Code to load and display images
+background_img = cv2.cvtColor(cv2.imread('path/to/image'), cv2.COLOR_BGR2RGB)
+# More code...
+</code></pre>
+            </section>
+
+            <!-- Part 2: Poisson Blending -->
+            <section id="part2">
+                <h3>Part 2: Poisson Blending</h3>
+                <p>Poisson blending technique is explored here, allowing seamless blending of images.</p>
+                <pre><code>def poisson_blend(object_img, object_mask, bg_img, bg_ul):
+    # Implementation details
+</code></pre>
+            </section>
+
+            <!-- Part 3: Mixed Gradients -->
+            <section id="part3">
+                <h3>Part 3: Mixed Gradients</h3>
+                <p>This section introduces mixed gradient blending, a technique that combines the gradients of the object and the background for more natural integration.</p>
+                <pre><code>def mixed_blend(object_img, object_mask, bg_img, bg_ul):
+    # Implementation details
+</code></pre>
+            </section>
+
+            <!-- Bells & Whistles -->
+            <section id="extras">
+                <h3>Bells & Whistles</h3>
+                <p>Additional advanced techniques such as Color2Gray and Laplacian pyramid blending are explored in this section.</p>
+                <!-- Subsections for each additional technique -->
+            </section>
+
+        </section>
+    </div>
+</body>
+</html>
